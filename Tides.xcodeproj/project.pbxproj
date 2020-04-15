@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A30E3102442559D00A9E071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E30F2442559D00A9E071 /* AppDelegate.swift */; };
+		4A30E3122442559D00A9E071 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E3112442559D00A9E071 /* SceneDelegate.swift */; };
+		4A30E3142442559D00A9E071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E3132442559D00A9E071 /* ViewController.swift */; };
+		4A30E3172442559D00A9E071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A30E3152442559D00A9E071 /* Main.storyboard */; };
+		4A30E3192442559F00A9E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A30E3182442559F00A9E071 /* Assets.xcassets */; };
+		4A30E31C2442559F00A9E071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A30E31A2442559F00A9E071 /* LaunchScreen.storyboard */; };
+		4A30E3272442559F00A9E071 /* TidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E3262442559F00A9E071 /* TidesTests.swift */; };
+		4A30E3322442559F00A9E071 /* TidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E3312442559F00A9E071 /* TidesUITests.swift */; };
+		4A30E3372442559F00A9E071 /* Tides WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4A30E3362442559F00A9E071 /* Tides WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A30E33D2442559F00A9E071 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A30E33B2442559F00A9E071 /* Interface.storyboard */; };
+		4A30E33F244255A000A9E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A30E33E244255A000A9E071 /* Assets.xcassets */; };
+		4A30E346244255A000A9E071 /* Tides WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4A30E345244255A000A9E071 /* Tides WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A30E34B244255A000A9E071 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E34A244255A000A9E071 /* InterfaceController.swift */; };
+		4A30E34D244255A000A9E071 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E34C244255A000A9E071 /* ExtensionDelegate.swift */; };
+		4A30E34F244255A000A9E071 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30E34E244255A000A9E071 /* NotificationController.swift */; };
+		4A30E351244255A100A9E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A30E350244255A100A9E071 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A30E3232442559F00A9E071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30E3042442559D00A9E071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A30E30B2442559D00A9E071;
+			remoteInfo = Tides;
+		};
+		4A30E32E2442559F00A9E071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30E3042442559D00A9E071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A30E30B2442559D00A9E071;
+			remoteInfo = Tides;
+		};
+		4A30E3382442559F00A9E071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30E3042442559D00A9E071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A30E3352442559F00A9E071;
+			remoteInfo = "Tides WatchKit App";
+		};
+		4A30E347244255A000A9E071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30E3042442559D00A9E071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A30E344244255A000A9E071;
+			remoteInfo = "Tides WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A30E359244255A100A9E071 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4A30E346244255A000A9E071 /* Tides WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E35D244255A100A9E071 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4A30E3372442559F00A9E071 /* Tides WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A30E30C2442559D00A9E071 /* Tides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A30E30F2442559D00A9E071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A30E3112442559D00A9E071 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A30E3132442559D00A9E071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A30E3162442559D00A9E071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A30E3182442559F00A9E071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A30E31B2442559F00A9E071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A30E31D2442559F00A9E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A30E3222442559F00A9E071 /* TidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A30E3262442559F00A9E071 /* TidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidesTests.swift; sourceTree = "<group>"; };
+		4A30E3282442559F00A9E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A30E32D2442559F00A9E071 /* TidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A30E3312442559F00A9E071 /* TidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidesUITests.swift; sourceTree = "<group>"; };
+		4A30E3332442559F00A9E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A30E3362442559F00A9E071 /* Tides WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tides WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A30E33C2442559F00A9E071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4A30E33E244255A000A9E071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A30E340244255A000A9E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A30E345244255A000A9E071 /* Tides WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tides WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A30E34A244255A000A9E071 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4A30E34C244255A000A9E071 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4A30E34E244255A000A9E071 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4A30E350244255A100A9E071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A30E352244255A100A9E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A30E353244255A100A9E071 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A30E3092442559D00A9E071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E31F2442559F00A9E071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E32A2442559F00A9E071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E342244255A000A9E071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A30E3032442559D00A9E071 = {
+			isa = PBXGroup;
+			children = (
+				4A30E30E2442559D00A9E071 /* Tides */,
+				4A30E3252442559F00A9E071 /* TidesTests */,
+				4A30E3302442559F00A9E071 /* TidesUITests */,
+				4A30E33A2442559F00A9E071 /* Tides WatchKit App */,
+				4A30E349244255A000A9E071 /* Tides WatchKit Extension */,
+				4A30E30D2442559D00A9E071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A30E30D2442559D00A9E071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A30E30C2442559D00A9E071 /* Tides.app */,
+				4A30E3222442559F00A9E071 /* TidesTests.xctest */,
+				4A30E32D2442559F00A9E071 /* TidesUITests.xctest */,
+				4A30E3362442559F00A9E071 /* Tides WatchKit App.app */,
+				4A30E345244255A000A9E071 /* Tides WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A30E30E2442559D00A9E071 /* Tides */ = {
+			isa = PBXGroup;
+			children = (
+				4A30E30F2442559D00A9E071 /* AppDelegate.swift */,
+				4A30E3112442559D00A9E071 /* SceneDelegate.swift */,
+				4A30E3132442559D00A9E071 /* ViewController.swift */,
+				4A30E3152442559D00A9E071 /* Main.storyboard */,
+				4A30E3182442559F00A9E071 /* Assets.xcassets */,
+				4A30E31A2442559F00A9E071 /* LaunchScreen.storyboard */,
+				4A30E31D2442559F00A9E071 /* Info.plist */,
+			);
+			path = Tides;
+			sourceTree = "<group>";
+		};
+		4A30E3252442559F00A9E071 /* TidesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A30E3262442559F00A9E071 /* TidesTests.swift */,
+				4A30E3282442559F00A9E071 /* Info.plist */,
+			);
+			path = TidesTests;
+			sourceTree = "<group>";
+		};
+		4A30E3302442559F00A9E071 /* TidesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A30E3312442559F00A9E071 /* TidesUITests.swift */,
+				4A30E3332442559F00A9E071 /* Info.plist */,
+			);
+			path = TidesUITests;
+			sourceTree = "<group>";
+		};
+		4A30E33A2442559F00A9E071 /* Tides WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4A30E33B2442559F00A9E071 /* Interface.storyboard */,
+				4A30E33E244255A000A9E071 /* Assets.xcassets */,
+				4A30E340244255A000A9E071 /* Info.plist */,
+			);
+			path = "Tides WatchKit App";
+			sourceTree = "<group>";
+		};
+		4A30E349244255A000A9E071 /* Tides WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A30E34A244255A000A9E071 /* InterfaceController.swift */,
+				4A30E34C244255A000A9E071 /* ExtensionDelegate.swift */,
+				4A30E34E244255A000A9E071 /* NotificationController.swift */,
+				4A30E350244255A100A9E071 /* Assets.xcassets */,
+				4A30E352244255A100A9E071 /* Info.plist */,
+				4A30E353244255A100A9E071 /* PushNotificationPayload.apns */,
+			);
+			path = "Tides WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A30E30B2442559D00A9E071 /* Tides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A30E35E244255A100A9E071 /* Build configuration list for PBXNativeTarget "Tides" */;
+			buildPhases = (
+				4A30E3082442559D00A9E071 /* Sources */,
+				4A30E3092442559D00A9E071 /* Frameworks */,
+				4A30E30A2442559D00A9E071 /* Resources */,
+				4A30E35D244255A100A9E071 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A30E3392442559F00A9E071 /* PBXTargetDependency */,
+			);
+			name = Tides;
+			productName = Tides;
+			productReference = 4A30E30C2442559D00A9E071 /* Tides.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A30E3212442559F00A9E071 /* TidesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A30E361244255A100A9E071 /* Build configuration list for PBXNativeTarget "TidesTests" */;
+			buildPhases = (
+				4A30E31E2442559F00A9E071 /* Sources */,
+				4A30E31F2442559F00A9E071 /* Frameworks */,
+				4A30E3202442559F00A9E071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A30E3242442559F00A9E071 /* PBXTargetDependency */,
+			);
+			name = TidesTests;
+			productName = TidesTests;
+			productReference = 4A30E3222442559F00A9E071 /* TidesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A30E32C2442559F00A9E071 /* TidesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A30E364244255A100A9E071 /* Build configuration list for PBXNativeTarget "TidesUITests" */;
+			buildPhases = (
+				4A30E3292442559F00A9E071 /* Sources */,
+				4A30E32A2442559F00A9E071 /* Frameworks */,
+				4A30E32B2442559F00A9E071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A30E32F2442559F00A9E071 /* PBXTargetDependency */,
+			);
+			name = TidesUITests;
+			productName = TidesUITests;
+			productReference = 4A30E32D2442559F00A9E071 /* TidesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4A30E3352442559F00A9E071 /* Tides WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A30E35A244255A100A9E071 /* Build configuration list for PBXNativeTarget "Tides WatchKit App" */;
+			buildPhases = (
+				4A30E3342442559F00A9E071 /* Resources */,
+				4A30E359244255A100A9E071 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A30E348244255A000A9E071 /* PBXTargetDependency */,
+			);
+			name = "Tides WatchKit App";
+			productName = "Tides WatchKit App";
+			productReference = 4A30E3362442559F00A9E071 /* Tides WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4A30E344244255A000A9E071 /* Tides WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A30E356244255A100A9E071 /* Build configuration list for PBXNativeTarget "Tides WatchKit Extension" */;
+			buildPhases = (
+				4A30E341244255A000A9E071 /* Sources */,
+				4A30E342244255A000A9E071 /* Frameworks */,
+				4A30E343244255A000A9E071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tides WatchKit Extension";
+			productName = "Tides WatchKit Extension";
+			productReference = 4A30E345244255A000A9E071 /* Tides WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A30E3042442559D00A9E071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Curtis NIXON";
+				TargetAttributes = {
+					4A30E30B2442559D00A9E071 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4A30E3212442559F00A9E071 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4A30E30B2442559D00A9E071;
+					};
+					4A30E32C2442559F00A9E071 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4A30E30B2442559D00A9E071;
+					};
+					4A30E3352442559F00A9E071 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4A30E344244255A000A9E071 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 4A30E3072442559D00A9E071 /* Build configuration list for PBXProject "Tides" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A30E3032442559D00A9E071;
+			productRefGroup = 4A30E30D2442559D00A9E071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A30E30B2442559D00A9E071 /* Tides */,
+				4A30E3212442559F00A9E071 /* TidesTests */,
+				4A30E32C2442559F00A9E071 /* TidesUITests */,
+				4A30E3352442559F00A9E071 /* Tides WatchKit App */,
+				4A30E344244255A000A9E071 /* Tides WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A30E30A2442559D00A9E071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30E31C2442559F00A9E071 /* LaunchScreen.storyboard in Resources */,
+				4A30E3192442559F00A9E071 /* Assets.xcassets in Resources */,
+				4A30E3172442559D00A9E071 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E3202442559F00A9E071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E32B2442559F00A9E071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E3342442559F00A9E071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30E33F244255A000A9E071 /* Assets.xcassets in Resources */,
+				4A30E33D2442559F00A9E071 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E343244255A000A9E071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30E351244255A100A9E071 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A30E3082442559D00A9E071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30E3142442559D00A9E071 /* ViewController.swift in Sources */,
+				4A30E3102442559D00A9E071 /* AppDelegate.swift in Sources */,
+				4A30E3122442559D00A9E071 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E31E2442559F00A9E071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30E3272442559F00A9E071 /* TidesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E3292442559F00A9E071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30E3322442559F00A9E071 /* TidesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A30E341244255A000A9E071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30E34F244255A000A9E071 /* NotificationController.swift in Sources */,
+				4A30E34D244255A000A9E071 /* ExtensionDelegate.swift in Sources */,
+				4A30E34B244255A000A9E071 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A30E3242442559F00A9E071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A30E30B2442559D00A9E071 /* Tides */;
+			targetProxy = 4A30E3232442559F00A9E071 /* PBXContainerItemProxy */;
+		};
+		4A30E32F2442559F00A9E071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A30E30B2442559D00A9E071 /* Tides */;
+			targetProxy = 4A30E32E2442559F00A9E071 /* PBXContainerItemProxy */;
+		};
+		4A30E3392442559F00A9E071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A30E3352442559F00A9E071 /* Tides WatchKit App */;
+			targetProxy = 4A30E3382442559F00A9E071 /* PBXContainerItemProxy */;
+		};
+		4A30E348244255A000A9E071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A30E344244255A000A9E071 /* Tides WatchKit Extension */;
+			targetProxy = 4A30E347244255A000A9E071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A30E3152442559D00A9E071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A30E3162442559D00A9E071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A30E31A2442559F00A9E071 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A30E31B2442559F00A9E071 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4A30E33B2442559F00A9E071 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A30E33C2442559F00A9E071 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A30E354244255A100A9E071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A30E355244255A100A9E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A30E357244255A100A9E071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = "Tides WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.Tides.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		4A30E358244255A100A9E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = "Tides WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.Tides.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		4A30E35B244255A100A9E071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				IBSC_MODULE = Tides_WatchKit_Extension;
+				INFOPLIST_FILE = "Tides WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.Tides.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		4A30E35C244255A100A9E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				IBSC_MODULE = Tides_WatchKit_Extension;
+				INFOPLIST_FILE = "Tides WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.Tides.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		4A30E35F244255A100A9E071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = Tides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.Tides";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A30E360244255A100A9E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = Tides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.Tides";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A30E362244255A100A9E071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = TidesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.TidesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tides.app/Tides";
+			};
+			name = Debug;
+		};
+		4A30E363244255A100A9E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = TidesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.TidesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tides.app/Tides";
+			};
+			name = Release;
+		};
+		4A30E365244255A100A9E071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = TidesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.TidesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tides;
+			};
+			name = Debug;
+		};
+		4A30E366244255A100A9E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R763M36A42;
+				INFOPLIST_FILE = TidesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curtis-NIXON.TidesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tides;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A30E3072442559D00A9E071 /* Build configuration list for PBXProject "Tides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A30E354244255A100A9E071 /* Debug */,
+				4A30E355244255A100A9E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A30E356244255A100A9E071 /* Build configuration list for PBXNativeTarget "Tides WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A30E357244255A100A9E071 /* Debug */,
+				4A30E358244255A100A9E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A30E35A244255A100A9E071 /* Build configuration list for PBXNativeTarget "Tides WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A30E35B244255A100A9E071 /* Debug */,
+				4A30E35C244255A100A9E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A30E35E244255A100A9E071 /* Build configuration list for PBXNativeTarget "Tides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A30E35F244255A100A9E071 /* Debug */,
+				4A30E360244255A100A9E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A30E361244255A100A9E071 /* Build configuration list for PBXNativeTarget "TidesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A30E362244255A100A9E071 /* Debug */,
+				4A30E363244255A100A9E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A30E364244255A100A9E071 /* Build configuration list for PBXNativeTarget "TidesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A30E365244255A100A9E071 /* Debug */,
+				4A30E366244255A100A9E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A30E3042442559D00A9E071 /* Project object */;
+}
